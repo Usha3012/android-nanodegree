@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:ignore="ExtraText">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#D4E157"/>
+    <ImageView
+        android:id="@+id/helping_hand"
+        android:adjustViewBounds="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:paddingTop="35dp"
+        android:src="@drawable/helpinghandsphoto"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:gravity="center_horizontal"
+        android:text="Helping H@nd"
+        android:textAllCaps="true"
+        android:textColorHighlight="#000000"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/join_us"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="Join Us !!!"
+        android:textColor="#616161"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        app:fontFamily="sans-serif"
+        android:paddingLeft="8dp"
+        android:layout_below="@+id/helping_hand"/>
+    <TextView
+        android:id="@+id/contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About Us"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/join_us"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"/>
+    <TextView
+        android:id="@+id/contact_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/contact"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:paddingTop="1dp"
+        android:paddingLeft="8dp"
+        android:layout_marginBottom="5dp"
+        android:text="We as an Organization help Orphan child to get a family and a good future.So, come and join ud in this Nobal cause." />
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address:"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/contact_content"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"/>
+    <TextView
+        android:id="@+id/address_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/address"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:paddingTop="1dp"
+        android:paddingLeft="8dp"
+        android:layout_marginBottom="1dp"
+        android:text="Janakpuri New Delhi, Delhi 110058" />
+    <TextView
+        android:id="@+id/timings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Timings"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/address_content"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"/>
+    <TextView
+        android:id="@+id/timings_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/timings"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:paddingTop="1dp"
+        android:paddingLeft="8dp"
+        android:layout_marginBottom="1dp"
+        android:text="9:30AM - 7:00PM" />
+
+</RelativeLayout>
